@@ -1,6 +1,7 @@
 //Write comments for programs q1 & q2.
 
-// <-- single line comment
+// <-- for single line comment
+//
 /* <-- For Multiple lines comment --> */ 
 // EXAMPLE SHOWN BELOW 
 
