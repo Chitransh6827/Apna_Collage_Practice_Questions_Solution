@@ -1,7 +1,7 @@
 //Write a function to find sum of digits of a number.
 
 #include<stdio.h>
-int main()
+void sum_of_digits()
 {
     int entrd_digits,remainder,sum=0;
     printf("Enter the digit: ");
@@ -14,4 +14,9 @@ int main()
         
     }
     printf("Sum of digits is: %d",sum);
+
+}
+int main()
+{
+    sum_of_digits();
 }
