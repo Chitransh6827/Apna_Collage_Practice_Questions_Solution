@@ -19,4 +19,5 @@ void sum_of_digits()
 int main()
 {
     sum_of_digits();
+    return 0;
 }
