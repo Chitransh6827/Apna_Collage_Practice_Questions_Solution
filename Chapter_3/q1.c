@@ -13,10 +13,10 @@
     }
     if(orgnl_val==armstrong)
     {
-        printf("Number %d is Amstrong!",orgnl_val);
+        printf("Number %d is Amstrong",orgnl_val);
     }
     else{
-        printf("Number %d is Not Armstrong!",orgnl_val);
+        printf("Number %d is Not Armstrong",orgnl_val);
     }
     return 0;
  }
