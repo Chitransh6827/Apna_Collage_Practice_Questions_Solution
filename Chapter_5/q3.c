@@ -12,7 +12,7 @@ int h_or_c(int temp)
         printf("Hot");
     }
     else{
-        printf("idk");
+        printf("idk?");
     }
 }
 int main()
