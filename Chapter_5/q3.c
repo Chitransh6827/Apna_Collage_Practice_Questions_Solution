@@ -1,10 +1,8 @@
 //Write a function to print "Hot" or "Cold" depending on the temperature user enters.
 #include<stdio.h>
-int h_or_c()
+int h_or_c(int temp)
 {
-    int temp;
-    printf("Enter the temprature: ");
-    scanf("%d",&temp);
+
     if(temp <= 15)
     {
         printf("Cold");
@@ -13,11 +11,16 @@ int h_or_c()
     {
         printf("Hot");
     }
-    else{}
+    else{
+        printf("idk");
+    }
 }
 int main()
 {
-    h_or_c();
+    int temp;
+    printf("Enter the temprature: ");
+    scanf("%d",&temp);
+    h_or_c(temp);
     return 0;
 }
     
