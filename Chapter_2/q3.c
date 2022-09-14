@@ -6,6 +6,6 @@ int main()
     printf("Enter the two numbers: ");
     scanf("%d %d",&a,&b);
     //used ternary operator
-    a<b ? printf("%d is smallest",a) : printf("%d is smallest",b);
+    a<b ? printf("%d is smallest!",a) : printf("%d is smallest!",b);
     return 0;
 }
